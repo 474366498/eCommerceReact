@@ -1,0 +1,36 @@
+
+.price-selector {
+   width:100%;
+   max-width:100%;
+   min-height:4rem;
+   box-sizing: border-box;
+   padding:1rem 1.5rem;
+   .slider{
+      position: relative;
+      width:100%;
+      height:.4rem;
+      background:#d9d9dd;
+      .slider-range{
+         position: absolute;
+         top:0;
+         height:.4rem;
+         background:#8e8e99;
+      }
+      .slider-handle {
+         position: absolute;
+         height:1rem;
+         top:-0.3rem;
+         width:.6rem;
+         background:#3c3d53;
+      }
+   }
+   .slide-input-group{
+      margin-top:2rem;
+      .slide-input{
+         height:2rem;
+         input.form-control{
+            min-width: 4rem;
+         }  
+      }
+   }
+}     

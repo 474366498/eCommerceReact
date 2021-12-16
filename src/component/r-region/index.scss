@@ -1,0 +1,36 @@
+
+// select 城市四级选择器
+#r-region{
+   position: relative;
+   .region-form{
+      background:white;
+      overflow: hidden;
+      .region-from-text{
+         width:100%;
+         overflow: hidden;
+         textarea{
+            margin-top:5px;
+            margin-left:5px;
+            width:calc(100% - 10px);
+            padding-left: 5px; 
+         }
+      }
+      .region-from-group{
+         position:static;
+         overflow: hidden;
+         padding : 5px 0;
+         .region-from-select{
+            width:25%;
+            float: left;
+            box-sizing: border-box;
+            padding-right: 5px;
+            &:last-child{
+               padding-right: 0;
+            }
+            select{
+               width:100%;
+            }
+         }
+      }
+   }
+}

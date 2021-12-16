@@ -1,0 +1,23 @@
+/*
+head-statue 顶部系统默认状态栏
+*/
+
+.head-statue {
+   height:1.8rem; 
+   text-align: right;
+   .row{
+      height:1.8rem;
+      background:rgba(0,0,0,.25);
+      .iconfont {
+         line-height:1.8rem;
+         color:white;
+         font-size:1.25rem;
+         margin-right: .25rem;
+      }
+      .clock{
+         line-height: 1.8rem;
+         color:white;
+         margin-left:.5125rem;
+      }
+   }
+}

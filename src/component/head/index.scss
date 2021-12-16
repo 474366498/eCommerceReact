@@ -1,0 +1,25 @@
+//appliance-head
+.appliance-head {
+   height:5.1rem;
+   padding-top: 1.8rem;
+   background:#67b0d6;
+   &.appliance-head-pink{
+      background:#f6846a;
+   }
+   .nav-item{
+      text-align: center;
+      .iconfont{
+         color:#38474f;
+         font-size: 1.25rem;
+         line-height: 3rem;
+      }
+      .icon-close,.icon-white{
+         color:white;
+      }
+   }
+   .col-xs-3 {
+      width:23.5%;
+      text-align: right;
+   }
+   
+}

@@ -1,0 +1,17 @@
+.search-element{
+   padding-top:15px;
+   .form-group{
+      position: relative;
+      .iconfont{
+         position: absolute;
+         left:5%;
+         top:8px;
+         color:#a6a6ad;
+      }
+      .form-control {
+         padding-left:12%;
+         border-color:#ddd;
+         box-shadow:0 .2rem .25rem rgba(33,33,33,.15);
+      }
+   }
+}

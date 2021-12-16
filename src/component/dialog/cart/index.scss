@@ -1,0 +1,87 @@
+.dialog-cart-background{
+   width: 100%;
+   position: fixed;
+   background: rgba(0, 0, 0, 0.2);
+   left: 0;
+   top: 5.1rem;
+   bottom: 0;
+   margin: 0;
+   z-index:100;
+   .dialog-cart{
+      background:#f6846a;
+      max-height:calc(100% - 6rem );
+      height:calc(100% - 6rem );
+      .cart-list{
+         max-height: calc(100% - 5rem);
+         width:100%;
+         margin:0;
+         padding:.45rem .75rem;
+         box-sizing: border-box;
+         overflow-x:hidden;
+         overflow-y: auto;
+         .cart-item{
+            height:7.25rem;
+            overflow: hidden;
+            background:white;
+            margin-bottom:1.5rem;
+            border-radius: .25rem;
+            box-shadow: 0 .15rem .3rem rgba(66,66,66,.35);
+            .wareDelete{
+               height:7.25rem;
+               line-height:7.25rem;
+               background:#38474f;
+               .iconfont{
+                  color:white;
+               }
+            }
+            .thumbnail{
+               margin-bottom:0;
+            }
+            .title{
+               line-height: 1.25rem;
+               height:3rem;
+               padding-top:.5rem;
+               font-size:.9125rem;
+               overflow: hidden;
+               margin-bottom:5px;
+               color:#38474f;
+            }
+            .size {
+               color:#a6a6ad;
+               margin-bottom:5px;
+               span{
+                  font-size: .75rem ;
+                  padding: 0 .15rem;
+               }
+            }
+            .price {
+               color:#a6a6ad;
+               margin-bottom:5px;
+            }
+            .btn-group{
+               height:7.25rem;
+               display:block;
+               padding-top:calc((7.25rem - 4.5rem) / 2) ;
+               box-sizing: border-box;
+               span{
+                  display: block;
+                  height:1.5rem;
+                  line-height: 1.5rem;
+                  text-align:center;
+                  color:#38474f;
+                  i{
+                     font-weight: 900;
+                     color:#a6a6ad;
+                  }
+               }
+            }
+         }   
+      }
+      .cart-settlement{
+         width:100%;
+         margin:0;
+         padding:.45rem .75rem;
+         box-sizing: border-box;
+      }
+   }
+}

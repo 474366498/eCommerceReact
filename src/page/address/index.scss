@@ -1,0 +1,88 @@
+.app-device{
+   background:#cacaca;
+   .address-list {
+      background:white;
+      .address-item{
+         display: flex ;
+         padding:.5rem 0;   
+         .col-xs-10{
+            display: flex;
+            .user-circle{
+               width: 3rem;
+               height: 3rem;
+               background:#aaa;
+               border-radius: 2rem;
+               line-height: 3rem;
+               text-align: center;
+            }
+            .address-info{
+               flex: 1;
+               padding-left:.75rem;
+               strong{
+                  margin-right:1.25rem;
+               }
+               .address-text{
+                  font-size:.75rem;
+                  color:#777;
+                  span{
+                     background:yellowgreen;
+                     color:red;
+                     padding:3px 4px;
+                     border-radius: 2px;
+                     margin-right:2px;
+                  }
+               }
+            }
+         }
+         .col-xs-2{
+            padding-left:0;
+            text-align: right;
+            &::before{
+               content:'';
+               width:1px;
+               height:1.2rem;
+               background: red;
+               margin-top: calc((100% - 1.2rem) / 2);
+               display: inline;
+               float:left;
+            }
+            a{
+               display: block;
+               height:100%;
+               line-height: 1.2rem;
+               transform:translateY(calc(50% - 1rem));
+            }
+         }
+      }
+   } // list end
+
+   .address-from {
+      background:pink ;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      bottom:0;
+      padding-left: 0;
+      padding-right: 0;
+      .from{
+         .row {
+            padding:.25rem 0;
+            .from-label{
+               text-align: right;
+            }
+            .from-right{
+               input {
+                  width:100%;
+               }
+               textarea {
+                  width:calc(100% - 2rem);
+                  float: left;
+               }
+               .btn-address{
+                  float:right;
+               }
+            }
+         }
+      }
+   }
+}

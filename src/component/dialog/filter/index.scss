@@ -1,0 +1,89 @@
+.dialog-filter-background{
+   position: fixed;
+   width:100%;
+   left:0;
+   top:0;
+   bottom:0;
+   background: rgba(0, 0, 0, 0.2);
+   .dialog-filter {
+      width:75%;
+      height:100%;
+      margin-left:25%;
+      .dialog-filter-head{
+         height:5.1rem;
+         padding:1.8rem 1rem 0 1.5rem;
+         background:#38474f;
+         box-sizing: border-box;
+         .iconfont , strong{
+            line-height: 3.3rem;
+            color:white;
+         }
+         .iconfont{
+            float: right;
+         }
+      }
+      .dialog-filter-body{
+         height:calc(100% - 5.1rem);
+         padding:1.5rem;
+         box-sizing: border-box;
+         background:white;
+         overflow-y:auto ;
+         .dialog-filter-list{
+
+            .dialog-filter-item{
+               margin-bottom:1.15rem;
+               .dialog-filter-title{
+                  &.dialog-filter-close{
+                     background:#d9d9dd;
+                     color:#7d7e85;
+                  }
+                  padding:.5rem 1rem ;
+                  .iconfont{
+                     float: left;
+                     margin-right: .5rem;
+                  }
+                  .iconfont:last-child{
+                     float: right;
+                     padding:0 .5rem;
+                     margin-right: 0;
+                  }
+               }
+               .dialog-filter-main{
+                  padding:.75rem 0;
+                  &.dialog-filter-close{
+                    display: none; 
+                  }
+                  .col-xs-4 {
+                     padding:.25rem .75rem;
+                     a{
+                        line-height: 2rem;
+                        background:#d9d9dd;
+                        color:#323c3f;
+                        text-align:center;
+                        border-radius: .4rem;
+                        font-size:.8125rem;
+                        &.active{
+                           background:#67b0d6;
+                        }
+                     }
+                  }
+                  &.dialog-filter-Colour{
+                     a{
+                        width:1.6rem;
+                        height:1.6rem;
+                        margin:.2rem 0;
+                        box-sizing: border-box;
+                        &.active{
+                           border:1px solid black;
+                        }
+                     }
+                  }
+               }
+            } /* item end */
+            .dialog-filter-btns{
+               padding:0 1.125rem;
+            }
+         }
+      }/* body end */
+   }
+}
